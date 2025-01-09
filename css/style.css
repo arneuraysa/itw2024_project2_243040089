@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+body {
+   font-family:"Teko", serif;
+}
+
+
+/* NAVBAR START */
+.navbar {
+    background-color: red;
+    height: 70px;
+    border-bottom: 1px solid;
+    padding: 0.5rem;
+}
+
+.navbar-brand {
+    font-weight: 1000;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-style: italic;
+    transition: 0.3s ;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+} 
+
+.nav-link {
+    color: black;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: white;
+}
+/* NAVBAR END */
+
+
+/* HOME START (HALAMAN 1) */
+.home-section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.home-section .home-intro h6 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin: 0 0 30px;
+    
+}
+
+.home-section .home-intro h1 {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 35px;
+    line-height: 1;
+    text-shadow: 3px 3px 7px red;
+}
+
+.home-section .home-intro p {
+    font-size: 25px;
+    margin: 0 0 25px;
+}
+
+.login-button {
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.home-image img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid red;
+    box-shadow: 0 0 40px red;
+    z-index: -2;
+    transition: all 0.3 ease-in-out;
+}
+
+.home-image img:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 100px #333;
+}
+
+.home-section .sosmed {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 30px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    padding-left: 4.5rem;
+}
+/* HOME END */
+
+
+/* ABOUT START (HALAMAN 2) */
+.about-section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+.about-us {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 7px red;
+}
+
+.about-text {
+    text-align: justify;
+    padding: 20x;
+    box-shadow: 0 0 10px red;
+    border: 2px solid red;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-text:hover {
+    transform: scale(1.07);
+}
+
+.about-text h3 {
+    padding: 20px;
+    font-weight: 700;
+}
+
+.about-text p {
+    padding: 0 20px;
+}
+/* ABOUT END */
+
+
+/* SERVICE START (HALAMAN 3) */
+.service-section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+.section-heading {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 7px red;
+}
+
+.feature-box {
+    padding: 20x;
+    box-shadow: 0 0 10px red;
+    border: 2px solid red;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: scale(1.07);
+}
+
+.feature-box .content {
+    padding: 15px;
+}
+
+.feature-box h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+/* SERVICE END */
+
+
+/* GALLERY START (HALAMAN 4) */
+.gallery-section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+.gallery-heading {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 7px red;
+}
+
+.gallery-box .gallery-img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    transition: 0.3s ease-in-out;
+}
+
+.gallery-box .gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-box .gallery-text span {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #333;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.gallery-box .video {
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 8px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.gallery-box .video:hover {
+    background-color: #333;
+    color: white;
+}
+
+.gallery-box .gallery-text h4 {
+    font-weight: 600;
+    font-size: 32px;
+}
+/* GALLERY END */
+
+
+/* CONTACT START (HALAMAN 5) */
+.contact-section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+.contact-us {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 7px red;
+}
+
+form {
+    border: 2px solid red;
+    padding: 20px;
+    box-shadow: 0 0 10px red;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+form .btn {
+    border: 1px solid red;
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    transition: .3s ease-in-out;
+}
+
+form .btn:hover {
+    transform: scale(1.1);
+    background-color: #333;
+}
+
+.form-control {
+    box-shadow: 0 0 5px red;
+    border: 1px solid red;
+}
+
+.form-control:hover {
+    border: 1px solid red;
+    box-shadow: 0 0 5px red;
+}
+/* CONTACT END */
+
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+}
+/* FOOTER END */
+
+
+/* RESPONSIVE BREAKPOINT */
+@media (min-width: 767px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: white;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .nav-link:hover::before {
+        width: 100%;
+        visibility: visible;
+    }
+
+    .home-section .home-intro h1 {
+        margin: 0 0 25px;
+        font-size: 60px;
+    }
+
+    .home-section .sosmed {
+        padding-right: 2rem;
+    }
+
+}
+
+@media (max-width:567px) {
+    .home-section .home-intro h6 {
+        margin: 0 0 20px;
+        font-size: 25px;
+    }
+
+    .home-section .home-intro h1 {
+        margin: 0 0 25px;
+        font-size: 45px;
+    }
+
+    .home-section .home-intro p {
+        font-size: 18px;
+        margin: 0 0 25px;
+    }
+
+    .home-image img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .about-us {
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+
+    .section-heading {
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+
+    .feature-box {
+        padding: 5px;
+    }
+
+    .feature-box h5 {
+        font-size: 22px;
+    }
+
+    .gallery-heading {
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+
+    .gallery-box .gallery-text h4 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .contact-us {
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+}
