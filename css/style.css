@@ -115,14 +115,10 @@ body {
 }
 
 .home-section .sosmed {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     height: 50px;
     width: 30px;
     margin-bottom: 20px;
     display: inline-flex;
-    padding-left: 4.5rem;
 }
 /* HOME END */
 
